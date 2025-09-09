@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Charm:wght@400;700&family=Cinzel+Decorative:wght@400;700;900&family=Dosis:wght@200..800&family=Homemade+Apple&family=Italianno&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kaushan+Script&family=Merienda:wght@300..900&family=Oranienbaum&family=Rubik+Doodle+Shadow&family=Satisfy&family=Tangerine:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Dosis", sans-serif;
+  /* width: 100%; */
+
+}
+
+body {
+  background: rgb(17, 16, 16);
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 22px;
+  background-color: rgb(17, 16, 16);
+  position: fixed;
+  top: 0%;
+  width: 100%;
+}
+
+
+ul {
+  display: flex;
+  align-items: center;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a:hover {
+  color: blue;
+  border-bottom: 3px solid blue;
+  transition: 0.3s ease-out;
+
+
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 19px;
+  margin-inline: 22px;
+  transform: background 2s;
+}
+
+#bar {
+  display: none;
+}
+
+
+
+.logo h1 {
+  color: rgb(0, 153, 255);
+  font-size: 22px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  margin-top: 115px;
+  align-items: center;
+  margin-left: 10%;
+}
+
+.main img {
+  width: 600px;
+  margin-right: 15%;
+  margin-top: 4%;
+}
+
+.mainText h1 {
+  font-size: 7rem;
+}
+
+.mainText h1 span {
+  color: rgb(0, 153, 255);
+}
+
+.mainText h3 {
+  font-size: 3rem;
+  margin-left: 1%;
+}
+
+.mainText p {
+  font-size: 1rem;
+  width: 57%;
+}
+
+.mainText button {
+  width: 140px;
+  height: 40px;
+  background-color: rgb(0, 153, 255);
+  font-size: 19px;
+  border: none;
+  color: white;
+  margin-top: 24px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: transparent;
+  border: 2px solid rgb(0, 153, 255);
+}
+
+head {
+  text-align: center;
+  padding: 80px;
+}
+
+.head span {
+  color: rgb(0, 153, 255);
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(28, 28, 28);
+  padding: 52px;
+}
+
+.main img {
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: top;
+  object-position: top;
+  border-radius: 50%;
+  border: 3px solid rgb(0, 153, 255);
+  box-shadow: 0 0 30px rgb(0, 153, 255);
+  cursor: pointer;
+  transition: 0.3s ease;
+
+}
+
+.main img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 80px rgb(0, 153, 255);
+}
+
+
+.about img {
+  width: 400px;
+  border-radius: 50%;
+  border: 4px solid rgb(0, 153, 255);
+  margin-inline: 55px;
+  margin-right: 6%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: top;
+  object-position: top;
+  border-radius: 50%;
+  border: 3px solid rgb(0, 153, 255);
+  box-shadow: 0 0 30px rgb(0, 153, 255);
+  cursor: pointer;
+  transition: 0.3s ease;
+
+}
+
+.about img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 50px rgb(0, 153, 255);
+}
+
+.aboutText p {
+  margin-top: 22px;
+  font-size: 20px;
+}
+
+.aboutText h1 span {
+  color: rgb(0, 153, 255);
+}
+
+.aboutText p span {
+  color: rgb(177, 174, 174);
+  padding-left: 2%;
+  font-size: 20px;
+}
+
+.aboutText h1 {
+  font-size: 55px;
+}
+
+.mainText p {
+  font-size: 23px;
+
+}
+
+.aboutTex p {
+  width: 70%;
+  margin: 0 20%;
+  display: flex;
+  font-size: 30px;
+}
+
+.aboutTex h1 {
+  margin-bottom: 2%;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.aboutTex h1 span {
+  color: rgb(0, 153, 255);
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 25px 0;
+}
+
+.social a {
+  text-decoration: none;
+  background: transparent;
+  color: rgb(0, 153, 255);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.4s ease;
+  border: 2px solid rgb(0, 153, 255);
+}
+
+.social a i {
+  font-size: 30px;
+}
+
+.social a:hover {
+  color: #fff;
+  background: rgb(0, 153, 255);
+  transform: translateY(-7px);
+}
+
+.socia {
+  align-items: center;
+  margin-left: 95%;
+  position: relative;
+  margin-top: -13%;
+}
+
+.socia a {
+  text-decoration: none;
+  background: transparent;
+  color: rgb(0, 153, 255);
+  width: 50px;
+  height: 50px;
+  gap: 20px;
+  /* border-radius: 50%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.4s ease;
+  /* border: 2px solid rgb(0, 153, 255); */
+}
+
+.socia a i {
+  font-size: 30px;
+}
+
+.socia a:hover {
+  color: #fff;
+  background: rgb(0, 153, 255);
+  transform: translateY(-7px);
+}
+
+
+
+.head h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 4%;
+  font-size: 50px;
+  margin-bottom: 2%;
+}
+
+.card span {
+  color: rgb(0, 153, 255);
+}
+
+.service {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* gap: 10%; */
+
+}
+
+.card {
+  width: 390px;
+  padding: 22px;
+  background-color: rgb(28, 28, 28);
+  margin-inline: 40px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.card p {
+  margin-top: 11px;
+}
+
+.card h1 {
+  font-size: 2rem;
+}
+
+.card h3 {
+  margin-top: 2%;
+}
+
+.card {
+  font-size: 22px;
+}
+
+.works h1 {
+  text-align: center;
+  font-size: 5rem;
+  margin-top: 5%;
+  margin-bottom: 6%;
+
+}
+
+.myWork {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* gap: 10%; */
+}
+
+.workCard {
+  width: 400px;
+  height: 310px;
+  background-color: #1c1b1b;
+  border-radius: 5px;
+  margin-inline: 20px;
+  padding: 7px;
+  /* margin: 7%; */
+}
+
+.workCard img {
+  width: 100%;
+
+}
+
+.workCard p {
+  font-size: 26px;
+}
+
+.workCard button {
+  width: 140px;
+  height: 40px;
+  background-color: rgb(0, 153, 255);
+  font-size: 19px;
+  border: none;
+  color: white;
+  margin-top: 24px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: transparent;
+  border: 2px solid rgb(0, 153, 255);
+}
+
+.contact {
+  width: 500px;
+  padding: 20px;
+  margin: auto;
+  background-color: #303030;
+}
+
+.contact .head h1 {
+  font-size: 4rem;
+
+}
+
+
+.contact input {
+  width: 100%;
+  padding: 5px;
+  font-size: 17px;
+  /* border: 1px solid white; */
+  border-radius: 4px;
+  background-color: rgb(227, 227, 227);
+  color: white;
+  margin-top: 3px;
+
+}
+
+.contact p {
+  margin-top: 20px;
+  font-size: 24px;
+
+}
+
+.contact button {
+  width: 100%;
+  height: 40px;
+  background-color: rgb(0, 153, 255);
+  font-size: 19px;
+  border: none;
+  color: white;
+  margin-top: 24px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: transparent;
+  border: 2px solid rgb(0, 153, 255);
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 55px;
+  margin-top: 70px;
+  background-color: rgb(52, 51, 51);
+  gap: 10%;
+
+}
+
+.text {
+  margin-top: 4%;
+}
+
+.text p {
+  margin-top: 19px;
+  font-size: 26px;
+  /* transform: background 1s; */
+  cursor: pointer;
+}
+
+.text h3 {
+  font-size: 26px;
+}
+
+.text p:hover {
+  color: rgb(0, 153, 255);
+  transition: 0.2s ease;
+}
